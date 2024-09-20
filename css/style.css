@@ -1,0 +1,47 @@
+* { box-sizing: border-box;}
+
+:root{
+    --grand: linear-gradient(
+        yellow;green
+    );
+    --mainFont:"Merriweather", serif;
+    --prim:orange;
+    --sec:red;
+    --tert:blue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.banner-image{
+    height: 40vh;
+}
+
+#section1{
+    background-color: var(--prim);
+}
+
+.nav-link{
+    border:1px solid black;
+    color:blue;
+}
+
+#footersection1{
+    padding: 20px 0;
+    background-color: var(--prim);
+}
+.footer-boxes{
+    margin: 0;
+    padding:15px;
+    height:40vh;
+    border: 1px solid cornflowerblue;
+}
+
+#topNavbar{
+    margin: 0;
+    padding: 0;
+}
+
+
